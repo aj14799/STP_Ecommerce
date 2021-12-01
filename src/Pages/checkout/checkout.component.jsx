@@ -34,7 +34,7 @@ function CheckoutPage({ cartItems, total }) {
                 )
             }
             <div className="total">
-                <span>Total= ${total}</span>
+                <span>Total= Rs {total}</span>
             </div>
             <div className="test-warning">
                 Please use any data for address and name and email, also use <br />
